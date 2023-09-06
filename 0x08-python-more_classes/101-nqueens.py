@@ -108,4 +108,4 @@ if __name__ == "__main__":
     board = init_board(int(sys.argv[1]))
     sols = solve(board, 0, 0, [])
     for sol in sols:
-        print(sol):
+        print(sol)
