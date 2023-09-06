@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+__doc__ = None
+
 
 class Rectangle:
 
