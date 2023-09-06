@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""prints out area and perimeter of a rect"""
+
 
 class Rectangle:
     """Defines a rectangle"""
