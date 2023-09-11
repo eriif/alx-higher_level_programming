@@ -31,4 +31,6 @@ class Rectangle(BaseGeometry):
         __str__ method for return the next string
         """
 
-        return "[Rectangle] {}/{}".format(self.__width, self.__height)
+        string = "[" + str(self.__class__.__name__) + "] "
+        string += str(self.__width) + "/" + str(self.__height)
+        return string
