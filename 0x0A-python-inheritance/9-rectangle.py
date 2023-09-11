@@ -15,8 +15,8 @@ class Rectangle(BaseGeometry):
         Method for initialized the attrubutes
         """
         self.integer_validator("width", width)
-        self.__width = width
         self.integer_validator("height", height)
+        self.__width = width
         self.__height = height
 
     def area(self):
@@ -31,6 +31,4 @@ class Rectangle(BaseGeometry):
         __str__ method for return the next string
         """
 
-        string = "[" + str(self.__class__.__name__) + "] "
-        string += str(self.__width) + "/" + str(self.__height)
-        return string
+        return "[Rectangle] " + str(self.__width) + "/" + str(self.__height)
